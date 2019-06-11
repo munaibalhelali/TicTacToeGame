@@ -76,7 +76,8 @@ int checkWin(){
 
 void drawBoard(){
 
-    //system("clear");
+    system("clear");// MacOS
+    //system("cls"); //Windows OS
     cout<<"\n\nTic Tac Toe"<<endl<<endl;
 
     cout<<"Player 1 <X>  -  Player 2 <O>"<<endl<<endl;
